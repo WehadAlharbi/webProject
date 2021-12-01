@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> التغذية</title>
+<style media="screen">
+@import url("http://www.fontstatic.com/f=sky-bold,sky"); 
+@media print {
+  body{
+    background-color: white;
+  }
+}
+
+html,body {
+ 
+  font-family: 'sky';
+
+   
+}
+.pre1 {
+  padding: 3rem 0;
+  font-size: 50px;
+ 
+}
+.py-1{
+  padding: 2rem 0;
+  font-size: 40px;
+ 
+}
+
+#showcase {
+  background: #ffffff url(bg.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:93%;
+  padding: 1.5rem;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+.bg-light {
+  background-color: #EAEAEA;
+}
+
+.image {
+    position:relative ;
+    width: 350px;
+    margin: auto;
+}
+
+
+
+
+.image__img {
+border-radius: 10px;
+  display: block;
+  width: 100%;
+
+}
+
+.image__overlay {
+    display: flex;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 10px;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 1em;
+}
+a{
+  text-decoration: none;
+}
+
+</style>
+</head>
+
+
+<body a link="white" vlink="white">
+
+        <section id="showcase" >
+         <div class="showcase-content">
+          <pre class="pre1" >
+           صحتك وصحة قلبك <br>في غذاءك الصحي...
+            </pre>
+
+         </div>
+</section>
+
+   <section class="bg-light py-1">
+     <div class="image">
+          <a href="snack.html">
+         <img class="image__img" src="https://i.pinimg.com/236x/1b/d6/ec/1bd6ec64a65ac020dac5adf09c93a225.jpg" alt="snack">
+         <div class="image__overlay image__overlay--blur">
+             <div class="image__title">سناك</div>
+             </a>
+         </div>
+     </div>
+<br><br>
+     <div class="image">
+        <a href="food.html">
+         <img class="image__img" src="https://i.pinimg.com/236x/63/95/83/6395835750cbf6566bdc56cbc9aacd12.jpg" alt="food">
+         <div class="image__overlay image__overlay--blur">
+             <div class="image__title">وجبات رئيسيه</div>
+            </a>
+         </div>
+     </div>
+<br><br>
+     <div class="image">
+          <a href="smothy.html">
+         <img class="image__img" src="https://i.pinimg.com/564x/91/cd/4e/91cd4e5b806b29d230b5f67f8bef2c75.jpg" alt="drinks">
+         <div class="image__overlay image__overlay--blur">
+             <div class="image__title">مشروبات صحية</div>
+           </a>
+         </div>
+     </div>
+
+
+     
+
+   </section>
+
+  </body>
+</html>
