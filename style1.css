@@ -1,0 +1,196 @@
+@media all{
+    .b{
+      background-image: url("img/body.jpeg");
+      width:auto ;
+      height: 20%;
+      background-size: cover;
+      background-repeat:no-repeat;
+      background-size: 100%;
+    }}
+    @media all{
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+  }
+    
+    @media all{
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.75rem;
+      position:sticky;
+      top: 0;
+      z-index: 1;
+    }}
+    
+    @media all{
+    #navbar .logo img {
+      width: 80px;
+      display: block;
+    
+    }}
+
+
+    @media all{
+    #navbar ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }}
+    
+    #navbar ul li a {
+      padding: 1rem;
+      color:#eee9e2;
+      font-size:larger;
+    }
+    
+    #navbar ul li a:hover {
+      background-color:#82a7a2;
+      border-radius: 5px;
+    }
+    
+    @media all{
+    a{
+      text-decoration: none;
+      color:#e8cba9;
+      font-weight: bold;
+    }
+    }
+    @media all{
+    .container{
+      background-image: url("img/background.jpeg");
+      max-width: 1300px;
+      margin: auto;
+      padding-left: 25px;
+      padding-right: 25px;
+    }}
+    @media all{
+    .paragraph{
+      font-family: 'Mada', sans-serif;
+      font-size: 50px;
+      margin-left: 400px;
+      margin-top: 140px;
+      text-align:center;
+      color: white ;
+    }}
+    @media all{
+    .h2{
+      font-family: 'Cairo', sans-serif;
+        text-align: center;
+        color: #e8cba9;
+        direction: rtl;
+        font-style: normal;
+        padding: 100px;
+        line-height: 2.4;
+        font-size: 35px;
+      }}
+      @media all{
+      .row{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }}
+    @media all{
+    .small-container{
+      max-width: 1080px;
+      margin:auto;
+      padding-left:25px;
+      padding-right:25px;
+    }}
+    @media all{
+    .col-4{
+      flex-basis:30%;
+      padding:40px;
+      min-width: 250px;
+      margin-bottom: 50px;
+      color:#d8a76d;
+    }}
+    @media all{
+    .col-4 img{
+      width:100%;
+    }}
+    @media all{
+    .col-4 img:hover{
+      opacity: 0.7;
+    }}
+    @media all{
+    .col-4{
+      font-size: 14px;
+      color:#d8a76d;
+    }}
+    @media all{
+    .mab{
+        font-family: 'Cairo', sans-serif;
+      text-decoration:none;
+      font-size: 40px;
+      color:#e8cba9;
+    }
+    }
+    @media all{
+    .information{
+        font-family: 'Cairo', sans-serif;
+    font-size:70px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:150px;
+    color:#e8cba9;
+    }}
+    @media all{
+    .prigrap{
+      font-family: 'Cairo', sans-serif;
+    font-size:40px;
+    padding-right:10px;
+    color:#e8cba9;
+    }}
+    @media all{
+    .timeforprg{
+        font-family: 'Cairo', sans-serif;
+      font-size:40px;
+    padding-right:250px;
+    color:#e8cba9;
+    }
+    }
+        @media all{
+    .login-box{
+        max-width:400px;
+        margin:10px auto;
+        border:10px solid #e8cba9;
+        }}
+      .row1{
+        font-family: 'Cairo', sans-serif;
+        color: #d1995c;
+      }
+        @media all{
+    .col-md-6-left{
+        background:#fff;
+    padding:40px;}
+    }
+    @media all{
+    .col-md-6-right{
+        background:#fff;
+        padding:40px;
+    
+    }}
+    @media all{
+    .btn{
+        height:30px;
+        width:200px;
+        background:#e8cba9;
+        position:relative;
+        left:50px;
+      color: #d1995c;
+    }}
+    #content {
+    text-align: center;
+    color: #e8cba9;
+    direction: rtl;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+      font-weight: bold;
+    line-height: 2.4;
+        margin-top: 19px;
+    }
